@@ -10,20 +10,20 @@ myemail = user@domain.web
 ; WebHelpDesk - Date Paster
 ; References
 ; [1]: http://www.autohotkey.com/docs/commands/FormatTime.htm
-^!+d::                                      			              ; When you press Ctrl+Alt+Shift+D
-    clip0 = %ClipBoardAll%                  			              ; Store current clipboard in Clip0
-    FormatTime, ClipBoard,, [u][b]dddd - MMMM d, yyyy[/b][/u]  	; Set the clipboard to the current date
-    Send ^v                                			                ; Simulate typing Ctrl-V (paste)
-    Sleep 1000                              			              ; Wait 1 second to ensure it's done
-    ClipBoard = %Clip0%                     			              ; Set the clipboard back
-    VarSetCapacity(Clip0, 0)                			              ; Free memory by emptying Clip0
-Return 								                                          ; End of hotkey
+^!+d::                                                                ; When you press Ctrl+Alt+Shift+D
+    clip0 = %ClipBoardAll%                                            ; Store current clipboard in Clip0
+    FormatTime, ClipBoard,, [u][b]dddd - MMMM d, yyyy[/b][/u]         ; Set the clipboard to the current date
+    Send ^v                                                           ; Simulate typing Ctrl-V (paste)
+    Sleep 1000                                                        ; Wait 1 second to ensure it's done
+    ClipBoard = %Clip0%                                               ; Set the clipboard back
+    VarSetCapacity(Clip0, 0)                                          ; Free memory by emptying Clip0
+Return                                                                ; End of hotkey
 
 ; WebHelpDesk Signature
 ^!+c::
-clip0 = %ClipBoardAll%          ; Store current clipboard in Clip0
-Send [b]%myname%[/b]			      ; Type my name
-Send {ENTER}							      ; Press Enter
+clip0 = %ClipBoardAll%                                                ; Store current clipboard in Clip0
+Send [b]%myname%[/b]                                                  ; Type my name
+Send {ENTER}                                                          ; Press Enter
 Send %mytitle%						      ; Type my title
 Send {ENTER}							      ; Press Enter
 Send %myorg%							      ; Type my Organization
