@@ -35,36 +35,36 @@ Return                                                                ; End of h
 
 ; WebHelpDesk Quote Template
 ^!+q::
-clip0 = %ClipBoardAll%                      ; Store current clipboard in Clip0
-Send Hey NAME,                              ; Type a greeting with placeholder 
-Send {ENTER}                                ; Press Enter
-Send {ENTER}                                ; Press Enter
-Send {ENTER}                                ; Press Enter
-Send [b][u]-----[/u][/b]	      ; Type a placeholder for a title
-Send {ENTER}							      ; Press Enter
-Send [b]Vendor:[/b]				      ; Type a placeholder for a vendor name
-Send {ENTER}							      ; Press Enter
-Send [b]Model:[/b]				      ; Type a placeholder for a model name
-Send {ENTER}							      ; Press Enter
-Send [b]Quote:[/b] [attached]		; Type a placeholder for a quote
-Send {ENTER}							      ; Press Enter
-Send [b]Cost:[/b] ~$						; Type a placeholder for the cost
-Send {ENTER}							      ; Press Enter
-Send [b]Account Code:[/b]				; Type a placeholder for the cost
-Send {ENTER}							      ; Press Enter
-Send [b]Description:[/b]				; Type a placeholder for a description
-Send {ENTER}							      ; Press Enter
-Send {ENTER}							      ; Press Enter
-Send [b]%myname%[/b]						; Type my name
-Send {ENTER}							      ; Press Enter
-Send %mytitle%							    ; Type my title
-Send {ENTER}							      ; Press Enter
-Send %myorg%							      ; Type my Organization
-Send {ENTER}							      ; Press Enter
-Send P: %myphone%						    ; Type my phone
-Send {ENTER}							      ; Press Enter
-Send E: %myemail%						    ; Type my email
-Return 								          ; End of hotkey
+clip0 = %ClipBoardAll%                                                ; Store current clipboard in Clip0
+Send Hey NAME,                                                        ; Type a greeting with placeholder 
+Send {ENTER}                                                          ; Press Enter
+Send {ENTER}                                                          ; Press Enter
+Send {ENTER}                                                          ; Press Enter
+Send [b][u]-----[/u][/b]                                              ; Type a placeholder for a title
+Send {ENTER}                                                          ; Press Enter
+Send [b]Vendor:[/b]                                                   ; Type a placeholder for a vendor name
+Send {ENTER}                                                          ; Press Enter
+Send [b]Model:[/b]                                                    ; Type a placeholder for a model name
+Send {ENTER}                                                          ; Press Enter
+Send [b]Quote:[/b] [attached]                                         ; Type a placeholder for a quote
+Send {ENTER}                                                          ; Press Enter
+Send [b]Cost:[/b] ~$                                                  ; Type a placeholder for the cost
+Send {ENTER}                                                          ; Press Enter
+Send [b]Account Code:[/b]                                             ; Type a placeholder for the cost
+Send {ENTER}                                                          ; Press Enter
+Send [b]Description:[/b]                                              ; Type a placeholder for a description
+Send {ENTER}                                                          ; Press Enter
+Send {ENTER}                                                          ; Press Enter
+Send [b]%myname%[/b]                                                  ; Type my name
+Send {ENTER}                                                          ; Press Enter
+Send %mytitle%                                                        ; Type my title
+Send {ENTER}                                                          ; Press Enter
+Send %myorg%                                                          ; Type my Organization
+Send {ENTER}                                                          ; Press Enter
+Send P: %myphone%                                                     ; Type my phone
+Send {ENTER}                                                          ; Press Enter
+Send E: %myemail%                                                     ; Type my email
+Return                                                                ; End of hotkey
 
 
 
