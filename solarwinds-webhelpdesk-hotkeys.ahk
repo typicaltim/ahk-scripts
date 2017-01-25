@@ -24,7 +24,7 @@ Return                                                                ; End of h
 clip0 = %ClipBoardAll%                                                ; Store current clipboard in Clip0
 Send [b]%myname%[/b]                                                  ; Type my name
 Send {ENTER}                                                          ; Press Enter
-Send %mytitle%						                                  ; Type my title
+Send %mytitle%                                                        ; Type my title
 Send {ENTER}                                                          ; Press Enter
 Send %myorg%                                                          ; Type my Organization
 Send {ENTER}                                                          ; Press Enter
