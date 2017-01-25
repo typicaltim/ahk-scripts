@@ -31,6 +31,7 @@ Send {ENTER}                                                          ; Press En
 Send P: %myphone%                                                     ; Type my phone
 Send {ENTER}                                                          ; Press Enter
 Send E: %myemail%                                                     ; Type my email
+VarSetCapacity(Clip0, 0)                                              ; Free memory by emptying Clip0
 Return                                                                ; End of hotkey
 
 ; WebHelpDesk Quote Template
@@ -64,6 +65,7 @@ Send {ENTER}                                                          ; Press En
 Send P: %myphone%                                                     ; Type my phone
 Send {ENTER}                                                          ; Press Enter
 Send E: %myemail%                                                     ; Type my email
+VarSetCapacity(Clip0, 0)                                              ; Free memory by emptying Clip0
 Return                                                                ; End of hotkey
 
 
