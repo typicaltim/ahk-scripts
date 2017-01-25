@@ -1,11 +1,11 @@
 ; AHK Hotkey Items
 
-; Universal Variables
-myname = Fname Lname
-mytitle = MyJobTitle
-myorg = MyOrganization Co
-myphone = #.###.555.1234
-myemail = user@domain.web
+; Universal Variables                                                  ; CHANGE THIS IF YOU INTEND ON USING THIS
+myname = Fname Lname                                                   ; CHANGE THIS IF YOU INTEND ON USING THIS
+mytitle = MyJobTitle                                                   ; CHANGE THIS IF YOU INTEND ON USING THIS
+myorg = MyOrganization Co                                              ; CHANGE THIS IF YOU INTEND ON USING THIS
+myphone = #.###.555.1234                                               ; CHANGE THIS IF YOU INTEND ON USING THIS
+myemail = user@domain.web                                              ; CHANGE THIS IF YOU INTEND ON USING THIS
 
 ; WebHelpDesk - Date Paster
 ; References
@@ -24,14 +24,14 @@ Return                                                                ; End of h
 clip0 = %ClipBoardAll%                                                ; Store current clipboard in Clip0
 Send [b]%myname%[/b]                                                  ; Type my name
 Send {ENTER}                                                          ; Press Enter
-Send %mytitle%						      ; Type my title
-Send {ENTER}							      ; Press Enter
-Send %myorg%							      ; Type my Organization
-Send {ENTER}							      ; Press Enter
-Send P: %myphone%					      ; Type my phone
-Send {ENTER}							      ; Press Enter
-Send E: %myemail%					      ; Type my email
-Return 								          ; End of hotkey
+Send %mytitle%						                                  ; Type my title
+Send {ENTER}                                                          ; Press Enter
+Send %myorg%                                                          ; Type my Organization
+Send {ENTER}                                                          ; Press Enter
+Send P: %myphone%                                                     ; Type my phone
+Send {ENTER}                                                          ; Press Enter
+Send E: %myemail%                                                     ; Type my email
+Return                                                                ; End of hotkey
 
 ; WebHelpDesk Quote Template
 ^!+q::
