@@ -35,11 +35,11 @@ Return 								          ; End of hotkey
 
 ; WebHelpDesk Quote Template
 ^!+q::
-clip0 = %ClipBoardAll%          ; Store current clipboard in Clip0
-Send Hey NAME,						      ; Type a greeting with placeholder 
-Send {ENTER}							      ; Press Enter
-Send {ENTER}							      ; Press Enter
-Send {ENTER}							      ; Press Enter
+clip0 = %ClipBoardAll%                      ; Store current clipboard in Clip0
+Send Hey NAME,                              ; Type a greeting with placeholder 
+Send {ENTER}                                ; Press Enter
+Send {ENTER}                                ; Press Enter
+Send {ENTER}                                ; Press Enter
 Send [b][u]-----[/u][/b]	      ; Type a placeholder for a title
 Send {ENTER}							      ; Press Enter
 Send [b]Vendor:[/b]				      ; Type a placeholder for a vendor name
