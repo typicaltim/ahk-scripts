@@ -67,8 +67,3 @@ Send {ENTER}                                                          ; Press En
 Send E: %myemail%                                                     ; Type my email
 VarSetCapacity(Clip0, 0)                                              ; Free memory by emptying Clip0
 Return                                                                ; End of hotkey
-
-
-
-
-
